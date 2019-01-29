@@ -1,0 +1,3 @@
+-Changer l'UI selon le type de la question
+	par exemple, si c'est un Virus, le fond passe en verre et la police du texte change un peu
+	(en gros chaque type modifiera l'interface)

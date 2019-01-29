@@ -1,0 +1,73 @@
+[Post]
+true;<P1> pioche une carte
+true;Si ta carte est rouge, tu bois une gorgée
+true;BONUS ! Si tu as eu <card>, tu cul-sec ton verre ! !
+[Able]
+CARTE
+[Type]
+Challenge
+[Post]
+true;<P1> lance le dé
+true;Si tu as fais plus de <de>, tu distribus 1 gorgée !
+[Able]
+De
+[Type]
+Challenge
+[Post]
+true;<P1> bois deux gorgées si <P2> est a sa droite
+true;<P2> prend deux gorgées aussi
+[Able]
+CARTE
+[Type]
+Challenge[Post]
+true;<P1> n'a plus le droit de parler. Une gorgée a chaque fois que tu l'ouvres !
+false;<P1> peut de nouveau parler
+[Able]
+Null
+[Type]
+Virus
+[Post]
+true;Chaque joueur choisit pile ou face
+true;Pile boit
+true;Face boit aussi !
+[Able]
+Null
+[Type]
+Minigame
+[Post]
+true;<P1> lance le dé
+true;Tu bois le nombre de gorgée correspondant au chiffre !
+true;Si tu as fais un <de>, tu finis ton verre :)
+[Able]
+De
+[Type]
+Challenge
+[Post]
+true;<P1> pioche une carte.
+true;Si ta carte est un <cardColor>, tu distribus deux gorgées ! Sinon, bois en deux
+[Able]
+CARTE
+[Type]
+Challenge
+[Post]
+true;Jeu de la valise ! Chaque joueur ajoute l'élément de son choix dans la valise en répétant d'abord tous les éléments qu'elle contient déjé
+[Able]
+Null
+[Type]
+Minigame
+[Post]
+true;<P1> pioche une carte
+true;Tu bois deux gorgées si ta carte est entre <card> et <card>
+[Able]
+CARTE
+[Type]
+Challenge
+[Post]
+true;<P1>, tu bois autant de gorgée que tu veux, et tu retiens le nombre ! (suite aprés)
+true;Enfaite, tu viens de boire pour rien
+false;L'heure de la vengeance est arrivé ! <P1> distribue le DOUBLE du nombre de gorgée que tu as bu tout é l'heure !
+true;Si tu n'avais rien bu, tu prends 3 gorgées.
+[Able]
+Null
+[Type]
+Rule
